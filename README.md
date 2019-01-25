@@ -52,7 +52,7 @@ For batch align make a directory of the following structure:
     ...
 ```
 Each line of "contentlist" file list file you want to align. Make sure that "contentlist" files of directories "ru" and "ara" 
-are parallel. Script starts at season1 and finishes when file "season<NUM>/ara/contentlist" do not exist. Therefore, contentlists 
+are parallel. Script starts at season1 and finishes when file "season\<NUM\>/ara/contentlist" do not exist. Therefore, contentlists 
 should be empty if you don't have files in season. After preparing files run:
 ```
   perl subtitle_series_aligner.pl <series_dir>

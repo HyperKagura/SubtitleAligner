@@ -6,7 +6,9 @@ It was tested on Windows, but should be fine on other platforms that support per
 ## Converting subtitles
 Aligning scripts expect files to be in *.srt format, so you might probably need to convert some of them prior.
 To convert files in *.ASS format call:
+```
   perl subtitle_ASS_2_SRT.pl input_file.ass >output_file.srt
+```
   
 ## Moving timestamps
 If you have found out that some file needs time tuning, you can call:
